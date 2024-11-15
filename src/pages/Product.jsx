@@ -26,6 +26,7 @@ const ProductDetail = () => {
 
     fetchProductDetail();
   }, [id]);
+
   // user ashiglan
   const buyBasket = (productId) => {
     if (!user) return;
